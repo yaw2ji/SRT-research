@@ -1,9 +1,9 @@
-# 忽略所有文件，只保留website目录
+# 忽略所有文件，只保留docs目录
 /*
 !.gitignore
-!website/
+!docs/
 
-# website目录中不需要的文件
-website/index_old.html
-website/assets/*.pdf
-website/assets/*.pptx
+# docs目录中不需要的文件
+docs/index_old.html
+docs/assets/*.pdf
+docs/assets/*.pptx
