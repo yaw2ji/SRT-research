@@ -1,26 +1,9 @@
-# macOS
-.DS_Store
+# 忽略所有文件，只保留website目录
+/*
+!.gitignore
+!website/
 
-# Windows
-Thumbs.db
-desktop.ini
-
-# Editor
-.vscode/
-.idea/
-
-# Temporary files
-*.tmp
-*.log
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Node
-node_modules/
-
-# Backup files
-*~
-*.bak
+# website目录中不需要的文件
+website/index_old.html
+website/assets/*.pdf
+website/assets/*.pptx
